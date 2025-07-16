@@ -2,6 +2,13 @@ body{
     min-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav ul{
@@ -39,6 +46,7 @@ margin-right: auto;
     right: 0;
     height: 100vh;
     width: 250px;
+    z-index: 999;
     background-color: rgba(225, 225, 225, 0.1);
     backdrop-filter: blur(10px);
     box-shadow: -10px 0 10px rgba(225, 225, 225, 0.2);
