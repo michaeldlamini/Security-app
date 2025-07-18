@@ -64,3 +64,9 @@ margin-right: auto;
 .sidebar a{
     width: 100%;
 }
+
+.menu-icon {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
